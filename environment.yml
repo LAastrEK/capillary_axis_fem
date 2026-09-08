@@ -1,0 +1,12 @@
+name: capillary-fem
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - fenics
+  - numpy
+  - matplotlib
+  - pip
+  - pip:
+      - gmsh
+      - meshio
